@@ -150,10 +150,10 @@ def predict():
 
 
 
-# Start the web
-if __name__ == '__main__':
-    # debug=True for adjustments, false when inference
-    app.run(host='0.0.0.0', port=5000, debug=True)
+# # Start the web
+# if __name__ == '__main__':
+#     # debug=True for adjustments, false when inference
+#     app.run(host='0.0.0.0', port=5000, debug=True)
 
 
 if __name__ == '__main__':
