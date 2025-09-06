@@ -6,7 +6,7 @@
 flowchart TB
   I[Input 3xHxW] --> C1[Conv7x7 s2, 64] --> BN1[BN] --> R1[ReLU] --> MP[MaxPool 3x3 s2]
 
-  %% 定义一个“隐形占位”样式
+
   classDef ghost fill:#0000,stroke:#0000,stroke-width:0;
 
   subgraph L1 ["Layer1 x2 blocks (64)"]
