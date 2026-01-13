@@ -1,70 +1,65 @@
-Leaf Disease Detection (APS360 Project)
+project:
+  title: "Leaf Disease Detection (APS360 Project)"
+  course: "APS360 – Applied Fundamentals of Deep Learning"
+  institution: "University of Toronto"
+  description: >
+    A deep learning project focused on automated plant disease recognition
+    from leaf images. The project explores multiple neural network architectures
+    to improve accuracy and robustness, simulating a real-world agricultural
+    AI application for early disease detection.
 
-A deep learning project for automated plant leaf disease classification using convolutional neural networks, developed as part of the University of Toronto APS360 (Applied Fundamentals of Deep Learning) course.
+  overview:
+    goal: "Classify plant leaf diseases using computer vision and neural networks"
+    approach:
+      - Built CNN-based image classification models
+      - Applied transfer learning on pretrained architectures
+      - Performed systematic experimentation and evaluation
+      - Simulated real-world agricultural AI use cases
 
-🌿 Project Overview
+  architecture:
+    name: "ResNet18 + CBAM + Soft Voting Ensemble"
+    description: >
+      The final model is an ensemble architecture combining a ResNet18 backbone
+      with Convolutional Block Attention Module (CBAM) for enhanced feature
+      representation. Predictions from multiple trained models are aggregated
+      using soft voting to improve robustness and generalization.
+    components:
+      - ResNet18 backbone
+      - CBAM attention module
+      - Ensemble learning via soft voting
+    diagram:
+      ![Alt text](./final_model_struct.png)
 
-This project focuses on building a machine learning system capable of identifying plant diseases from leaf images. Early and accurate disease detection is critical in agriculture, and this project explores how computer vision models can be applied to real-world sustainability challenges.
+  contributions:
+    - Designed and trained custom Convolutional Neural Networks (CNN)
+    - Implemented ResNet18 with CBAM attention mechanism
+    - Built ensemble model using soft voting strategy
+    - Experimented with Vision Transformer (ViT) architecture
+    - Applied data augmentation techniques to improve generalization
+    - Tuned hyperparameters for better validation accuracy
+    - Evaluated model performance using accuracy and validation metrics
+    - Collaborated within a team using structured experimentation and reporting
 
-The model is trained on labeled leaf image datasets and evaluated on classification accuracy, generalization ability, and robustness.
+  technologies:
+    languages:
+      - Python
+    frameworks:
+      - PyTorch
+    tools:
+      - NumPy
+      - Matplotlib
+      - Jupyter Notebook
+    concepts:
+      - Deep Learning
+      - Convolutional Neural Networks (CNN)
+      - Transfer Learning
+      - Attention Mechanisms (CBAM)
+      - Ensemble Learning
+      - Vision Transformer (ViT)
 
-Architecture (ResNet18 + CBAM + Soft Voting)
-
-![Alt text](./final_model_struct.png)
-
-
-🧠 Key Objectives
-
-Build an end-to-end deep learning pipeline for image classification
-
-Apply CNN architectures to real visual data
-
-Perform data preprocessing, augmentation, and model evaluation
-
-Analyze model performance and improve generalization
-
-🛠 Tech Stack
-
-Python
-
-PyTorch
-
-NumPy, Matplotlib
-
-Jupyter Notebook
-
-Deep Learning (CNNs)
-
-🔬 What I Implemented
-
-Dataset loading and preprocessing pipeline
-
-Data augmentation to improve model robustness
-
-Convolutional Neural Network (CNN) models
-
-Training / validation loop with performance tracking
-
-Accuracy evaluation and error analysis
-
-Visualization of predictions and learning curves
-
-📊 Skills Demonstrated
-
-Deep learning model development
-
-Computer vision for image classification
-
-Experimental design and debugging ML pipelines
-
-Interpreting results and improving performance
-
-Writing clean, modular research-style code
-
-🎓 Context
-
-This project was completed as part of APS360 – Applied Fundamentals of Deep Learning at the University of Toronto, a project-based course focused on real-world applications of neural networks.
-
-📫 Contact
-
-Feel free to reach out if you'd like to discuss this project or collaborate.
+  skills_demonstrated:
+    - Deep learning model design and training
+    - Attention-based architecture integration
+    - Ensemble modeling and evaluation
+    - Machine learning experimentation methodology
+    - Team-based technical collaboration
